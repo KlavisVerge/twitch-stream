@@ -17,6 +17,7 @@ class TwitchStreamApp extends PolymerElement {
         }
       </style>
       <iron-image src="[[thumbnailurl]]"></iron-image>
+      <paper-item>Streamer: [[streamer]]</paper-item>
       <paper-item>Title: [[title]]</paper-item>
       <paper-item>Viewer Count: [[viewercount]]</paper-item>
     `;
@@ -30,6 +31,9 @@ class TwitchStreamApp extends PolymerElement {
         type: String
       },
       viewercount: {
+        type: String
+      },
+      streamer: {
         type: String
       }
     };
