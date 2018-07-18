@@ -16,24 +16,20 @@ class TwitchStreamApp extends PolymerElement {
           text-align: center;
         }
       </style>
-      <iron-image src="[[imgsrc]]"></iron-image>
+      <iron-image src="[[thumbnailUrl]]"></iron-image>
       <paper-item>Title: [[title]]</paper-item>
       <paper-item>Viewer Count: [[viewerCount]]</paper-item>
-      <paper-item>Started at: [[startedAt]]</paper-item>
     `;
   }
   static get properties() {
     return {
-      imgsrc: {
+      thumbnailUrl: {
         type: String
       },
       title: {
         type: String
       },
       viewerCount: {
-        type: String
-      },
-      startedAt: {
         type: String
       }
     };
