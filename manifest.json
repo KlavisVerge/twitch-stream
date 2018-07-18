@@ -1,0 +1,6 @@
+{
+  "name": "twitch-stream",
+  "short_name": "twitch-stream",
+  "start_url": "/",
+  "display": "standalone"
+}
