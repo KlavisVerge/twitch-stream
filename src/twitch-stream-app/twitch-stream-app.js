@@ -1,4 +1,6 @@
 import {html, PolymerElement} from '@polymer/polymer/polymer-element.js';
+import "../../node_modules/@polymer/iron-image/iron-image.js"
+import "../../node_modules/@polymer/paper-item/paper-item.js"
 
 /**
  * @customElement
