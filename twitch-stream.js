@@ -3,10 +3,14 @@ import "./node_modules/@polymer/iron-image/iron-image.js"
 import "./node_modules/@polymer/paper-item/paper-item.js"
 
 /**
+ * `twitch-stream`
+ * 
+ *
  * @customElement
  * @polymer
+ * @demo demo/index.html
  */
-class TwitchStreamApp extends PolymerElement {
+class TwitchStream extends PolymerElement {
   static get template() {
     return html`
       <style>
@@ -42,4 +46,4 @@ class TwitchStreamApp extends PolymerElement {
   }
 }
 
-window.customElements.define('twitch-stream-app', TwitchStreamApp);
+window.customElements.define('twitch-stream', TwitchStream);
