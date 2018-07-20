@@ -21,6 +21,10 @@ class TwitchStream extends PolymerElement {
           align-items: center;
           text-align: center;
         }
+
+        paper-item {
+          min-height: 0px;
+        }
       </style>
       <iron-image src="[[thumbnailurl]]"></iron-image>
       <paper-item>Streamer: [[streamer]]</paper-item>
