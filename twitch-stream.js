@@ -25,6 +25,10 @@ class TwitchStream extends PolymerElement {
         paper-item {
           min-height: 0px;
         }
+
+        a {
+          text-decoration: none;
+        }
       </style>
       <iron-image src="[[thumbnailurl]]"></iron-image>
       <paper-item>Streamer: [[streamer]]</paper-item>
